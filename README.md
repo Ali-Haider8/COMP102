@@ -1,4 +1,4 @@
-# 🚀 Advanced Programming Language
+# 🚀 Advanced Programming Language (Java)
 
 > *A repository for **Advanced Programming Language course** materials and practical exercises.*
 
