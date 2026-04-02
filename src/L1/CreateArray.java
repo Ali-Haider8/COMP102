@@ -1,8 +1,6 @@
 package L1;
 
-import javax.swing.JOptionPane;
-
-public class OneDimensionalArray {
+public class CreateArray {
     static void main() {
 
 //        int[] values;
@@ -35,12 +33,12 @@ public class OneDimensionalArray {
 
 //        for (int value : values) System.out.print(value + " ");
 
-//        int[] values = {12, 24, -23, 47};
-//        int i = 0;
-//        while (i < values.length) {
-//            System.out.print(values[i] + " ");
-//            i++;
-//        }
+        int[] values = {12, 24, -23, 47};
+        int i = 0;
+        while (i < values.length) {
+            System.out.print(values[i] + " ");
+            i++;
+        }
 
 
 
