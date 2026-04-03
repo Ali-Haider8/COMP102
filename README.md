@@ -1,31 +1,24 @@
-# 🚀 Advanced Programming Language (Java)
+# 🚀 Advanced Programming Language (Java) - COMP102
 
 > *A repository for **Advanced Programming Language course** materials and practical exercises.*
 
 ## 📂 Repository Content
 - 💻 Advanced programming examples
-- 🧪 Practical exercises
+- 🧪 Practical lab exercises 
 - 🧩 Course-related code files
-- 📚 Design patterns & algorithms
+
+## 📖 Topics Covered
+This course covers the following core topics:
+- **1D Arrays:** Storing and controlling single-dimensional data.
+- **2D Arrays:** Handling two-dimensional data structures and their applications.
+- **Java Methods:** Creating and invoking methods, return types, and parameter passing.
+- **Classes & Objects:** Using classes to support code reusability and information hiding.
+- **Java Strings:** String manipulation and built-in methods.
 
 ## 🏫 Academic Source
-**University of Kufa**  
-**Faculty of Computer Science and Mathematics**  
-**Department of Computer Science**  
-**Batch: 2025–2026**
+**University of Kufa** | **Faculty of Computer Science and Mathematics** | **Department of Computer Science**
+**First Year - Semester 2** | **Batch: 2025–2026**
 
 ## 👨‍🏫 Instructors
 - **Dr. Ali Abdulkarem Habib Alrammahi**
 - **Dr. Abbas M. Ali Al-muqarm**
-
-## 🎯 Course Goals
-- 🔍 Understand advanced programming concepts
-- 🛠️ Implement design patterns
-- 💡 Solve complex problems
-- 📈 Write maintainable code
-
-## 📋 Prerequisites
-- ✅ Basic programming knowledge
-- ✅ Familiarity with at least one language
-
-🎓 **Purpose:** To practice and master advanced programming techniques.
