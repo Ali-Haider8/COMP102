@@ -25,6 +25,7 @@ public class FindAStringInArray {
         System.out.println();
         System.out.print("Find a name in array: ");
         String targetName = sc.nextLine();
+        sc.close();
 
         int flag = 0;
         int i;
