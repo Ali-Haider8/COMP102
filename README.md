@@ -22,3 +22,7 @@ This course covers the following core topics:
 ## 👨‍🏫 Instructors
 - **Dr. Ali Abdulkarem Habib Alrammahi**
 - **Dr. Abbas M. Ali Al-muqarm**
+
+## 🌐 Recommended Websites
+- [W3Schools - Java Tutorial](https://www.w3schools.com/java/)
+- [TutorialsPoint - Java Tutorial](https://www.tutorialspoint.com/java/)
