@@ -1,6 +1,6 @@
 package L1.HW;
 
-public class FindMaxAndMainArray {
+public class FindMaxAndMinInArray {
 
     public static void main(String[] args) {
 
