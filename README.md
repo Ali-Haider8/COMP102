@@ -17,7 +17,7 @@ This course covers the following core topics:
 
 ## 🏫 Academic Source
 **University of Kufa** | **Faculty of Computer Science and Mathematics** | **Department of Computer Science**
-**First Year - Semester 2** | **Batch: 2025–2026**
+**First Year – Semester 2** | **Batch: 2025–2026**
 
 ## 👨‍🏫 Instructors
 - **Dr. Ali Abdulkarem Habib Alrammahi**
