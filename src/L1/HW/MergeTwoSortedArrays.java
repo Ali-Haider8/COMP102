@@ -24,13 +24,61 @@ public class MergeTwoSortedArrays {
         }
 
 
-        System.out.println("Enter elements for second array: ");
+        System.out.print("Enter elements for second array: ");
         for (int i = 0; i < arr1.length; i++) {
             arr2[i] = sc.nextInt();
         }
         sc.close();
 
-        
+        System.out.print("Array 1 elements: ");
+        for (int x : arr1) {
+            System.out.print(x + " ");
+        }
+
+        System.out.println();
+        System.out.print("Array 2 elements: ");
+        for (int x : arr2) {
+            System.out.print(x + " ");
+        }
+
+        // sort first array
+        int swap = 0;
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = i + 1; j < arr1.length; j++) {
+                if (arr1[i] > arr1[j]) {
+                    swap = arr1[j];
+                    arr1[j] = arr1[i];
+                    arr1[i] = swap;
+                }
+            }
+        }
+
+        System.out.println();
+        System.out.print("Array 1 elements sorted: ");
+        for (int x : arr1) {
+            System.out.print(x + " ");
+        }
+
+        // sort second array
+
+        for (int i = 0; i < arr2.length; i++) {
+            for (int j = i + 1; j < arr2.length; j++) {
+                if (arr2[i] > arr2[j]) {
+                    swap = arr2[j];
+                    arr2[j] = arr2[i];
+                    arr2[i] = swap;
+                }
+            }
+        }
+
+        System.out.println();
+        System.out.print("Array 2 elements sorted: ");
+
+        for (int x : arr2) {
+            System.out.print(x + " ");
+        }
+
+
 
     }
 }
