@@ -25,7 +25,7 @@ public class MergeTwoSortedArrays {
 
 
         System.out.print("Enter elements for second array: ");
-        for (int i = 0; i < arr1.length; i++) {
+        for (int i = 0; i < arr2.length; i++) {
             arr2[i] = sc.nextInt();
         }
         sc.close();
@@ -78,7 +78,40 @@ public class MergeTwoSortedArrays {
             System.out.print(x + " ");
         }
 
+        arr3 = new int[arr1Size + arr2Size];
 
+        for (int i = 0; i < arr1.length; i++) {
+            arr3[i] = arr1[i];
+        }
+
+        for (int i = 0; i < arr2.length; i++) {
+            arr3[i + arr1.length] = arr2[i];
+        }
+
+        System.out.println();
+        System.out.print("Arrays Merged: ");
+
+        for (int x : arr3) {
+            System.out.print(x + " ");
+        }
+
+        // sort arr3
+        for (int i = 0; i < arr3.length; i++) {
+            for (int j = i + 1; j < arr3.length; j++) {
+                if (arr3[i] > arr3[j]) {
+                    swap = arr3[j];
+                    arr3[j] = arr3[i];
+                    arr3[i] = swap;
+                }
+            }
+        }
+
+        System.out.println();
+        System.out.print("Array 3 elements sorted: ");
+
+        for (int x : arr3) {
+            System.out.print(x + " ");
+        }
 
     }
 }
