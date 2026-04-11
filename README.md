@@ -24,6 +24,8 @@ This course covers the following core topics:
 - **Dr. Ali Abdulkarem Habib Alrammahi**
 - **Dr. Abbas M. Ali Al-muqarm**
 
+> *📅 **Learning Start Date — March 2026***
+
 ## 🌐 Recommended Websites
 - [W3Schools - Java Tutorial](https://www.w3schools.com/java/)
 - [TutorialsPoint - Java Tutorial](https://www.tutorialspoint.com/java/)
