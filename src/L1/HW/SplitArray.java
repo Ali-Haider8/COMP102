@@ -1,8 +1,8 @@
 package L1.HW;
-
+//  4. Create array (1, 2, 3, 4, 5, 6) then Split an Array into Two Halves:
 public class SplitArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         int[] numbers = {1, 2, 3, 4, 5, 6};
 
@@ -14,13 +14,9 @@ public class SplitArray {
             System.out.print(x + " ");
         }
 
-        for (int i = 0; i < firstHalf.length; i++) {
-            firstHalf[i] = numbers[i];
-        }
+        System.arraycopy(numbers, 0, firstHalf, 0, firstHalf.length);
 
-        for (int i = 0; i < secondHalf.length; i++) {
-            secondHalf[i] = numbers[i + 3];
-        }
+        System.arraycopy(numbers, 3, secondHalf, 0, secondHalf.length);
 
         System.out.println();
         System.out.print("First array: ");

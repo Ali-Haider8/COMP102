@@ -1,5 +1,6 @@
 package L1;
-
+/* Java program to illustrate creating an array of type double and
+print each element with its index */
 public class ArrayExample1 {
 
     static void main() {

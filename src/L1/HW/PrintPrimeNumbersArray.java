@@ -3,9 +3,10 @@ package L1.HW;
 import java.util.Scanner;
 
 // Q> Write a Java program to print the prime numbers in an array.
+
 public class PrintPrimeNumbersArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array: ");

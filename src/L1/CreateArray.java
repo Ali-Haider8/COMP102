@@ -1,5 +1,6 @@
 package L1;
 
+// How to declare, initialize and access array?
 public class CreateArray {
     static void main() {
 

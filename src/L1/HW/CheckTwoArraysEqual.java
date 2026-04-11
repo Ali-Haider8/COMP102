@@ -1,10 +1,10 @@
 package L1.HW;
 
 import java.util.Scanner;
-
+//7. Create any two arrays from keyboard then Check if Two Arrays Are Equal:
 public class CheckTwoArraysEqual {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first array size: ");

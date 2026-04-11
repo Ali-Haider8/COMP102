@@ -1,10 +1,10 @@
 package L1.HW;
 
 import java.util.Scanner;
-
+//10. create array from keyboard then Calculate Average Value
 public class AvgValueArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array size: ");

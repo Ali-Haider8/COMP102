@@ -1,10 +1,11 @@
 package L1.HW;
 
 import java.util.Scanner;
-
+// 9. Create array from the keyboard then print the array from second position after
+//that Find Missing number in Consecutive Integers:
 public class FindMissingNumberArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         /*Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");

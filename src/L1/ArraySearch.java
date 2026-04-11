@@ -1,10 +1,10 @@
 package L1;
 
 import java.util.Scanner;
-
+//  Example 5: Write a Java program to search an element in an array.
 public class ArraySearch {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         int[] numbers = {5,2,7,4,10};
 

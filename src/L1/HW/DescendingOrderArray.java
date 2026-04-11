@@ -7,7 +7,7 @@ import java.util.Scanner;
 @SuppressWarnings("DuplicatedCode")
 public class DescendingOrderArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[5];

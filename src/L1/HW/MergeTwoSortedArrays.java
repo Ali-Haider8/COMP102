@@ -1,10 +1,11 @@
 package L1.HW;
 
 import java.util.Scanner;
-
+// 3. Create any two integer array from Keyboard , then Merge Two Sorted
+//Arrays
 public class MergeTwoSortedArrays {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         int[] arr1, arr2, arr3;
 
@@ -80,13 +81,9 @@ public class MergeTwoSortedArrays {
 
         arr3 = new int[arr1Size + arr2Size];
 
-        for (int i = 0; i < arr1.length; i++) {
-            arr3[i] = arr1[i];
-        }
+        System.arraycopy(arr1, 0, arr3, 0, arr1.length);
 
-        for (int i = 0; i < arr2.length; i++) {
-            arr3[i + arr1.length] = arr2[i];
-        }
+        System.arraycopy(arr2, 0, arr3, arr1.length, arr2.length);
 
         System.out.println();
         System.out.print("Arrays Merged: ");

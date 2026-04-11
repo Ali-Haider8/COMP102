@@ -1,8 +1,8 @@
 package L1;
-
+//  Example 6: Write a Java program to sort the items of an array in ascending order.
 public class ArrayAscendingOrder {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         double[] array = {22.4, 13.3, 9.5, 6, 10.3};
         double temp;

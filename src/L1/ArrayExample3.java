@@ -1,10 +1,10 @@
 package L1;
 
 import java.util.Scanner;
-
+// Java Example Read and Print Array
 public class ArrayExample3 {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int size;
         int[] items;
         Scanner in = new Scanner(System.in);

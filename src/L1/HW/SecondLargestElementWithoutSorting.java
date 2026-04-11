@@ -1,8 +1,9 @@
 package L1.HW;
-
+// 6. Create array (10, 20, 4, 45, 99) then , Find Second Largest Element
+//Without Sorting:
 public class SecondLargestElementWithoutSorting {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         int[] numbers = {10, 20, 4, 45, 99};
 

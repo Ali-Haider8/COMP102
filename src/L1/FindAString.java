@@ -6,7 +6,7 @@ package L1;
 //not found
 public class FindAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         String[] names = {"Ali", "Hassan", "Jafar", "Mohamed"};
 
@@ -15,6 +15,7 @@ public class FindAString {
         for (int i = 0; i < names.length; i++) {
             if (names[i] == "Ali") {
                 x = 1;
+                break;
             }
         }
 

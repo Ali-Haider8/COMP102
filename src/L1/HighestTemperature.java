@@ -1,10 +1,11 @@
 package L1;
 
 import java.util.Scanner;
-
+//  Example 2: Write a Java program to store a week temperature and print the highest
+//temperature.
 public class HighestTemperature {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
 

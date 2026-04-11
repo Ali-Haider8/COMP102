@@ -1,8 +1,8 @@
 package L1;
-
+//  Example 4: Write a Java program to print the average of numbers in an array.
 public class ArrayAverage {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         double[] array = {22.4, 13.3, 9.5, 6, 10.3};
         double sum = 0;
 

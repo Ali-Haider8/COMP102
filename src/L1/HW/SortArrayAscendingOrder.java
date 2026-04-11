@@ -5,7 +5,7 @@ import java.util.Scanner;
 //then sorting array in ascending order.
 public class SortArrayAscendingOrder {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[4];
 

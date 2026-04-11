@@ -1,10 +1,10 @@
 package L1.HW;
 
 import java.util.Scanner;
-
+//  5. Create array from Key board then Sum of All Elements:
 public class SumAllArrayElements {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array size: ");

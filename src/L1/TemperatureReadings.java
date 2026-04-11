@@ -2,9 +2,11 @@ package L1;
 
 import java.util.Scanner;
 
+//  Example 1: Write a Java program to store and display the maximum daily
+//temperatures in a week.
 public class TemperatureReadings {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
 
         double[] temperature; // Create the array
@@ -22,6 +24,6 @@ public class TemperatureReadings {
         System.out.println("***TEMPERATURES ENTERED***");
         System.out.println();
         for (int i = 0; i < temperature.length; i++)
-            System.out.println("Day " + (i + 1) + ": " + temperature[i]+"°C");
+            System.out.println("Day " + (i + 1) + ": " + temperature[i] + "°C");
     }
 }

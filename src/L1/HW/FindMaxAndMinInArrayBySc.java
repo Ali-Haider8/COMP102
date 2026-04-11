@@ -5,7 +5,7 @@ import java.util.Scanner;
 //{10,20,60,70,30} then find Max and Min Numbers in array
 public class FindMaxAndMinInArrayBySc {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[5];

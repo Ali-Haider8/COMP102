@@ -1,8 +1,8 @@
 package L1.HW;
-
+//  2. Create integer array (0, 1, 0, 3, 12) then Shift All Zeroes to the End:
 public class ShiftAllZerosEndArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] numbers = {0, 1, 0, 3, 12};
         int index = 0;
 

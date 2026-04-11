@@ -3,7 +3,7 @@ package L1;
 //then sorting array in ascending order.
 public class SortArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         int[] a = {5, 4, 2, 1};
 
