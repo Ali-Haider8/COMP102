@@ -1,4 +1,6 @@
 package L1.HW;
+// Q3: Write java codes to create array with any five integer items
+//{10,20,60,70,30} then find Max and Min Numbers in array
 
 public class FindMaxAndMinInArray {
 

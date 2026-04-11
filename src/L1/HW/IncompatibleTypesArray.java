@@ -1,5 +1,7 @@
 package L1.HW;
 
+//  Q> Is there an error in the following codes?
+//  int[] values = {1, 2.5, 3, 3.5, 4};
 public class IncompatibleTypesArray {
 
     public static void main(String[] args) {

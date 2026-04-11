@@ -1,6 +1,8 @@
 package L1.HW;
 
 import java.util.Scanner;
+//  Q> Write a Java program to count the number of occurrences of an element in an
+//  array.
 
 public class ElementOccurrencesInArray {
 

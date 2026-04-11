@@ -1,5 +1,6 @@
 package L1;
-
+// Q2: Write java codes to create array with any five integer items { 5,4,2,1}
+//then sorting array in ascending order.
 public class SortArray {
 
     public static void main(String[] args) {

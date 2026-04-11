@@ -2,6 +2,8 @@ package L1.HW;
 
 import java.util.Scanner;
 
+// Q> Write a Java program to sort the items of an array in descending order.
+
 @SuppressWarnings("DuplicatedCode")
 public class DescendingOrderArray {
 
