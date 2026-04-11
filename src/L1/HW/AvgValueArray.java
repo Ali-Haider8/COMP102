@@ -24,5 +24,8 @@ public class AvgValueArray {
         double avg = (double) sum / size;
 
         System.out.println("Average value of array is: " + avg);
+
+
+
     }
 }
