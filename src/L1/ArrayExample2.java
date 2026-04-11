@@ -11,6 +11,7 @@ public class ArrayExample2 {
 //        for (int number : numbers) sum = sum + number;
 
         System.out.println("The summation is: " + sum);
-        System.out.println("The square root is:" + Math.sqrt(sum));
+        System.out.println("The square root is: " + Math.sqrt(sum));
+        System.out.println("The square is: " + (sum*sum));
     }
 }
