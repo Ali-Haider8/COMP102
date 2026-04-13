@@ -11,15 +11,11 @@ class SumAndFindSquareArray {
     static void main() {
 
         Scanner sc = new Scanner(System.in);
-        float[] arr = new float[10];
+        float[] arr = {0.1f, 0.2f, 0.3f, 0.4f, 0.5f, 0.6f, 0.7f, 0.8f, 0.9f, 1.0f};
 
-        System.out.print("Enter elements of array: ");
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextFloat();
-        }
 
         float sum = 0;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
             sum += arr[i];
         }
         System.out.println("Sum of items from index 0 to 3 is: " + sum);
