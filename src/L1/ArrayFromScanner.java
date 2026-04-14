@@ -1,8 +1,9 @@
 package L1;
 
 import java.util.Scanner;
+// ArrayExample3
 // Java Example Read and Print Array
-public class ArrayExample3 {
+public class ArrayFromScanner {
 
     static void main(String[] args) {
         int size;

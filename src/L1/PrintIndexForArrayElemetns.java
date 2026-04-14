@@ -1,7 +1,8 @@
 package L1;
+// ArrayExample1
 /* Java program to illustrate creating an array of type double and
 print each element with its index */
-public class ArrayExample1 {
+public class PrintIndexForArrayElemetns {
 
     static void main() {
         double[] array = {22.4, 13.3, -6.5, 9};
