@@ -2,7 +2,7 @@ package Other;
 
 import java.util.Scanner;
 
-public class CharToInt {
+public class TypeCastings {
     static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

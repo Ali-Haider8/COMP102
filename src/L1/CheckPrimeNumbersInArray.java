@@ -1,4 +1,4 @@
-package Other;
+package L1;
 
 public class CheckPrimeNumbersInArray {
 
