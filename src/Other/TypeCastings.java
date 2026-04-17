@@ -6,7 +6,7 @@ public class TypeCastings {
     static void main() {
 
         Scanner input = new Scanner(System.in);
-
+// update from dell inspiron m5040
 
         System.out.println("Select a type to casting");
         System.out.println("1) from char to int");
