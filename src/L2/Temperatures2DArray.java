@@ -14,10 +14,9 @@ Perform the following:
 1. Print out the value of highlighted indexes.
 2. Print out the value of highlighted row.
 3. Find out the maximum, minimum and average values.
-
 */
 
-class Temperatures2ndArray {
+class Temperatures2DArray {
 
     static void main() {
 
