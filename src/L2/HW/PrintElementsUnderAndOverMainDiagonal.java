@@ -58,7 +58,7 @@ public class PrintElementsUnderAndOverMainDiagonal {
             }
             System.out.println();
         }
-//
+//3
     }
 }
 
