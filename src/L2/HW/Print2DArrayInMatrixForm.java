@@ -1,4 +1,8 @@
 package L2.HW;
+/*
+Q1 : Write a program to input a 2D array from the Keyboard
+and print it in matrix form.
+*/
 
 import java.util.Scanner;
 
