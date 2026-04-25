@@ -1,8 +1,10 @@
 package L1.HW;
+
 // 1. Create integer array (1, 2, 2, 3, 3, 3) Count Frequency of Each Element:
+
 public class CountElementFrequencyArray {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         int[] numbers = {1, 2, 2, 3, 3, 3};
         int num1Frequency = 0, num2Frequency = 0, num3Frequency = 0;

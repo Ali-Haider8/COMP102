@@ -26,18 +26,22 @@ class VisitedOrNotArray {
                 arr[i] = input.nextInt();
             }
         }
+
         System.out.println();
         System.out.print("The Array is " + Arrays.toString(arr));
         System.out.println();
+
         for (int i = 0; i < arr.length; i++) {
             int count = 1;
             boolean visited = false;
+
             for (int j = i - 1; j >= 0; j--) {
                 if (arr[j] == arr[i]) {
                     visited = true;
                     break;
                 }
             }
+
             if (visited) continue;
             for (int k = i + 1; k < arr.length; k++) {
                 if (arr[k] == arr[i]) {
