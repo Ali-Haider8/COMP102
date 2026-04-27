@@ -1,58 +1,58 @@
 package L2.HW;
 
-import java.util.Scanner;
+public class ElementOccurrences2DArray {
 
-class ElementOccurrences2DArray {
+    public static void main(String[] args) {
+        int[][] matrix = {{1, 2, 3}, {3, 2, 5}, {3, 6, 4}};
 
-    static void main() {
-        Scanner input = new Scanner(System.in);
+        // 1. go accross all array elemenets
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
 
-        System.out.print("Enter rows: ");
-        int rows = input.nextInt();
-        System.out.print("Enter cols: ");
-        int cols = input.nextInt();
-
-        int[][] arr = new int[rows][cols];
-
-        System.out.println("Enter elements:");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                arr[i][j] = input.nextInt();
-            }
-        }
-
-        // حساب التكرار
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-
-                int current = arr[i][j];
-                int count = 0;
-                boolean countedBefore = false;
-
-                // تحقق هل هذا العنصر تم حسابه سابقاً
-                for (int x = 0; x < rows; x++) {
-                    for (int y = 0; y < cols; y++) {
-                        if (arr[x][y] == current) {
-                            if (x < i || (x == i && y < j)) {
-                                countedBefore = true;
-                            }
+                // 2. A) check if element is visited
+                boolean visited = false;
+                for (int pi = 0; pi < i; pi++) {
+                    for (int pj = 0; pj < matrix[pi].length; pj++) {
+                        if (matrix[i][j] == matrix[pi][pj]) {
+                            visited = true;
+                            break;
+                        }
+                    }
+                    if (visited) break;
+                }
+                // 2. B) check the same row before j
+                if (!visited) {
+                    for (int pj = 0; pj < j; pj++) {
+                        if (matrix[i][j] == matrix[i][pj]) {
+                            visited = true;
+                            break;
                         }
                     }
                 }
+                // 3. bypass same elements
+                if (visited) {
+                    continue;
+                }
 
-                // إذا لم يُحسب سابقاً → احسبه
-                if (!countedBefore) {
-                    for (int x = 0; x < rows; x++) {
-                        for (int y = 0; y < cols; y++) {
-                            if (arr[x][y] == current) {
-                                count++;
-                            }
+                // 4. calculate occurrences in the same row to the right of element
+                int count = 1;
+                for (int k = j + 1; k < matrix[i].length; k++) {
+                    if (matrix[i][j] == matrix[i][k]) {
+                        count += 1;
+                    }
+                }
+
+                // 5. calculate occurrences in the other rows
+                for (int ni = i + 1; ni < matrix.length; ni++) {
+                    for (int nj = 0; nj < matrix[ni].length; nj++) {
+                        if (matrix[i][j] == matrix[ni][nj]) {
+                            count += 1;
                         }
                     }
-                    System.out.println(current + " -> " + count);
                 }
+                // 6. print result
+                System.out.println(matrix[i][j] + " -> " + count);
             }
         }
-
     }
 }

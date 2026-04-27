@@ -10,7 +10,7 @@ public class CalculateFrequencyOfArrayElements {
         for (int i = 0; i < arr.length; i++) {
 
             // 2nd loop: check visited?
-            /*boolean visited = false;
+            boolean visited = false;
             for (int j = i - 1; j >= 0; j--) {
                 if (arr[i] == arr[j]) {
                     visited = true;
@@ -20,7 +20,7 @@ public class CalculateFrequencyOfArrayElements {
             // skip if visited
             if (visited) {
                 continue;
-            }*/
+            }
 
             int count = 1;
             // 3rd loop: count frequency
