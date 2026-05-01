@@ -8,11 +8,12 @@ Ali 10, 10,20
 Moh 20,100,50
 Hassan 100,1 00,100
 */
+
 public class avStudentArrayMethod {
 
     public static void main(String[] args) {
         String[] students = {"Ali", "Moh", "Hassan"};
-        int grades[][] = {{10, 10, 20}, {20, 100, 50}, {100, 100, 100}};
+        int[][] grades = {{10, 10, 20}, {20, 100, 50}, {100, 100, 100}};
         avstudent(students, grades);
     }
 
