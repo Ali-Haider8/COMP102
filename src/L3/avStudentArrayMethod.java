@@ -1,4 +1,4 @@
-package L3.HW;
+package L3;
 
 /*
 Write java program to create

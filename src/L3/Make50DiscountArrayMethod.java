@@ -1,4 +1,4 @@
-package L3.HW;
+package L3;
 /*
 Q1: - Write java program to create array Price [4].
 1- input from keyboard any prices
