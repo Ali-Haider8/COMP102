@@ -1,34 +1,28 @@
 package L1.HW;
 
-import java.util.Scanner;
 import java.util.Arrays;
 
 //Q> Write a Java program to sort names of an array in an alphabetical order.
 public class SortArrayAlphabeticalOrder {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        String[] names = new String[5];
+        String[] arr = {"Zuhair", "Eman", "Ali", "Baqir"};
 
-        System.out.println("Enter 5 names (press enter for every name): ");
-
-        for (int i = 0; i < names.length; i++) {
-            names[i] = sc.nextLine();
+        String temp;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i].charAt(0) < arr[j].charAt(0)) {
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
         }
 
-        System.out.print("The items of array: ");
-
-        for (String name : names) {
-            System.out.print(name + " ");
+        for (String n : arr) {
+            System.out.print(n + " ");
         }
 
-        System.out.println();
-        System.out.print("Alphabetical order: ");
-        Arrays.sort(names, String.CASE_INSENSITIVE_ORDER);
-
-        for (String name : names) {
-            System.out.print(name + " ");
-        }
     }
 }
