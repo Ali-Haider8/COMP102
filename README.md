@@ -26,6 +26,13 @@ This course covers the following core topics:
 
 > *📅 **Learning Start Date — March 2026***
 
-## 🌐 Recommended Websites
+## 🌐 Recommended References
+
+### 📘 Books
+- **Java How to Program (9th Edition)** — Paul & Harvey Deitel (2011)  
+- **Java for Absolute Beginners** — Iuliana Cosmina (2018)
+
+### 🌍 Websites
 - [W3Schools - Java Tutorial](https://www.w3schools.com/java/)
-- [TutorialsPoint - Java Tutorial](https://www.tutorialspoint.com/java/)
+- [TPoint Tech - Java Tutorial](https://www.tpointtech.com/java-tutorial)
+- [Codecademy - Learn Java](https://www.codecademy.com/learn/learn-java)
