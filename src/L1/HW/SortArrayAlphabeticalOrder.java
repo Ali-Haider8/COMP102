@@ -1,8 +1,7 @@
 package L1.HW;
 
-import java.util.Arrays;
-
 //Q> Write a Java program to sort names of an array in an alphabetical order.
+
 public class SortArrayAlphabeticalOrder {
 
     public static void main(String[] args) {
