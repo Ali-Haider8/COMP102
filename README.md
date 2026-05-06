@@ -12,7 +12,6 @@ This course covers the following core topics:
 - **1D Arrays:** Storing and controlling single-dimensional data.
 - **2D Arrays:** Handling two-dimensional data structures and their applications.
 - **Java Methods:** Creating and invoking methods, return types, and parameter passing.
-- **Classes & Objects:** Using classes to support code reusability and information hiding.
 - **Mathematical Functions** like abs & ceil & floor.
 - **Java Strings:** String manipulation and built-in methods.
 
