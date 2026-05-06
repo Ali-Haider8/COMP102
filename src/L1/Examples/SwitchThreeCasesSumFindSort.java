@@ -9,9 +9,9 @@ import java.util.Scanner;
 //  2: Input any key from keyboard then check it found or not in array.
 //  3: Sort items from 200 to 170.
 
-class SwitchThreeCasesSumFindSort {
+public class SwitchThreeCasesSumFindSort {
 
-    static void main() {
+    public static void main(String[] args) {
         int[] X = {200, 100, 300, 150, 99, 170, 120, 33, 40, 1, 55};
 
         System.out.print("Array: ");
@@ -50,18 +50,18 @@ class SwitchThreeCasesSumFindSort {
                 }
                 if (found) {
                     System.out.println("Key found in array at index: " + (keyIndex + 1));
-                } else if (found) {
+                } else {
                     System.out.println("Key not found in array.");
                 }
                 break;
             case 3:
                 System.out.print("Array before sorting: ");
-                for (int i = 0; i < 6; i++) {
+                for (int i = 0; i < X.length - 5; i++) {
                     System.out.print(X[i] + " ");
                 }
                 int temp;
-                for (int i = 0; i < 6; i++) {
-                    for (int j = i + 1; j < 6; j++) {
+                for (int i = 0; i < X.length - 5; i++) {
+                    for (int j = i + 1; j < X.length - 5; j++) {
                         if (X[j] < X[i]) {
                             temp = X[i];
                             X[i] = X[j];
@@ -70,7 +70,7 @@ class SwitchThreeCasesSumFindSort {
                     }
                 }
                 System.out.print("\nArray after sorting: ");
-                for (int i = 0; i < 6; i++) {
+                for (int i = 0; i < X.length - 5; i++) {
                     System.out.print(X[i] + " ");
                 }
                 break;
