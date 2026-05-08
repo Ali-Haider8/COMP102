@@ -35,3 +35,4 @@ This course covers the following core topics:
 - [W3Schools - Java Tutorial](https://www.w3schools.com/java/)
 - [TPoint Tech - Java Tutorial](https://www.tpointtech.com/java-tutorial)
 - [Codecademy - Learn Java](https://www.codecademy.com/learn/learn-java)
+- [Programiz - Learn Java Programming](https://www.programiz.com/java-programming/)
