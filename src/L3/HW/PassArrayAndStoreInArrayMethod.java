@@ -1,10 +1,11 @@
 package L3.HW;
 
 /*
-Source: 3- Java Methods.pdf
 H.W:- Write java program to pass array x[5] as integer values ,
 then store items of array from index 2 to end of array in new array
 xnew[]; then return xnew to main method.
+
+Source: 3- Java Methods.pdf
 */
 
 public class PassArrayAndStoreInArrayMethod {

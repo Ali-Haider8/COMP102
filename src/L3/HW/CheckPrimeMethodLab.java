@@ -1,6 +1,9 @@
-package L3;
+package L3.HW;
 /*
-Source: Lab quiz
+1- Write java code to create a method to check if a number is   Boolean
+prime(num).
+
+Source: 4- H.W Methods using Java 2025.pdf
 */
 
 public class CheckPrimeMethodLab {

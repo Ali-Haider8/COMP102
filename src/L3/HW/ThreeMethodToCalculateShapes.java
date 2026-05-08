@@ -1,9 +1,10 @@
 package L3.HW;
 
 /*
-Source: 2- Java Methods.pdf
 1- write java program to create three methods area of circle, circumference of a circle,
 and area of area of the triangle, pass parameter not return value.
+
+Source: 2- Java Methods.pdf
 */
 public class ThreeMethodToCalculateShapes {
     static double piValue = 3.14;
