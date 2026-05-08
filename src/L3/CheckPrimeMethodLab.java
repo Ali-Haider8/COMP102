@@ -1,6 +1,6 @@
-package L3.HW;
+package L3;
 
-public class CheckPrimeMethod {
+public class CheckPrimeMethodLab {
 
     public static void main(String[] args) {
         int number = 7;
