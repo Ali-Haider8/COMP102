@@ -1,6 +1,9 @@
 package L3;
 
-//3- Java Methods.pdf
+/*
+Source: 3- Java Methods.pdf
+*/
+
 public class FindSumOfTwoNumbersMethod {
 
     // create a method

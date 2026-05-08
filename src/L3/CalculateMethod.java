@@ -1,5 +1,9 @@
 package L3;
 
+/*
+Source: 1- Java Methods.pdf
+*/
+
 public class CalculateMethod {
 
     static int num1 = 25;
@@ -11,9 +15,9 @@ public class CalculateMethod {
         System.out.println("sum = " + sum);
     }
 
-    static void multiplyNumbers(){
+    static void multiplyNumbers() {
         int mul = num1 * num2;
-        System.out.println("mul = "+mul);
+        System.out.println("mul = " + mul);
     }
 
     public static void main(String[] args) {

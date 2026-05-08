@@ -1,6 +1,9 @@
 package L3;
 
-//Source: 3- Java Methods.pdf
+/*
+Source: 3- Java Methods.pdf
+*/
+
 public class FindSumAndMultiplicationMethod {
 
     static float AvNumbers(int a, int b) {

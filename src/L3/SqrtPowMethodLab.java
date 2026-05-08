@@ -2,7 +2,11 @@ package L3;
 
 import java.util.Scanner;
 
-public class SqrtPowMethod {
+/*
+Source: Lab Quiz
+*/
+
+public class SqrtPowMethodLab {
     static int a = 4;
     static int b = 5;
 

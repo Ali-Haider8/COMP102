@@ -1,4 +1,7 @@
 package L3;
+/*
+Source: Lab quiz
+*/
 
 public class CheckPrimeMethodLab {
 

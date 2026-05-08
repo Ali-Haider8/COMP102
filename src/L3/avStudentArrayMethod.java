@@ -1,6 +1,7 @@
 package L3;
 
 /*
+Source: All-Questions-Second-Course.pdf
 Write java program to create
 avstudent(st[],d[][]) to find the sum and
 av for the following arryas of students
