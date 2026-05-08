@@ -5,7 +5,7 @@ H.W:- Write java program to pass array x[5] as integer values ,
 then store items of array from index 2 to end of array in new array
 xnew[]; then return xnew to main method.
 
-Source: 3- Java Methods.pdf
+Source: 3- Java Methods.pdf (page 3 of 3)
 */
 
 public class PassArrayAndStoreInArrayMethod {

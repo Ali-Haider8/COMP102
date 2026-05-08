@@ -3,7 +3,7 @@ package L3.HW;
 1- Write java code to create a method to check if a number is   Boolean
 prime(num).
 
-Source: 4- H.W Methods using Java 2025.pdf
+Source: 4- H.W Methods using Java 2025.pdf (page 1 of 1)
 */
 
 public class CheckPrimeMethodLab {

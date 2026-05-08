@@ -3,7 +3,7 @@ package L3.HW;
 /*
 2- write code of java to sort x1[5], x2[4] using SortArr().
 
-Source: 2- Java Methods.pdf
+Source: 2- Java Methods.pdf (page 3 of 3)
 */
 
 public class SortArrayMethod {

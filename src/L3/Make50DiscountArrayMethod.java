@@ -1,10 +1,11 @@
 package L3;
 /*
-Source: All-Questions-Second-Course.pdf
 Q1: - Write java program to create array Price [4].
 1- input from keyboard any prices
 2- make discount 50% for each price in array then save results in new array discount[] then
 return new array and print result in main method.
+
+Source: All-Questions-Second-Course.pdf (page 4 of 24)
 */
 
 import java.util.Scanner;

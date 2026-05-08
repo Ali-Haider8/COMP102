@@ -1,12 +1,16 @@
-package L3;
+package L3.HW;
 
 import java.util.Scanner;
 
 /*
-Source: Lab Quiz
+H.W:-1 Write Java Program to input number then create Method sqrtNumber()
+and powerNumber() then input two cases from
+keyboard ( 1: find sqrt 2: find power ).
+
+Source: 5- H.W - Method.pdf (page 1 of 1)
 */
 
-public class SqrtPowMethodLab {
+public class SqrtPowMethod {
     static int a = 4;
     static int b = 5;
 

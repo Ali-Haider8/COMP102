@@ -1,7 +1,7 @@
 package L3;
 
 /*
-Source: 1- Java Methods.pdf
+Source: 1- Java Methods.pdf (page 3 of 4)
 */
 
 public class CalculateMethod {

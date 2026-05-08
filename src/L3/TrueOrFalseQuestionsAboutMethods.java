@@ -1,13 +1,14 @@
 package L3;
 
 /*
-Source: All-Questions-Second-Course.pdf
 Q1:- Write ( True ) or ( False & Correct it )
 1- All the items of array have diffrent datatype.
 2- When call method should be has same number of parameters and different data type.
 3- The indexes ot-the array start with zero always
 4- The lengths of the rows in 21) array are required to be the same.
 5- Sqrt is a method of Scanner class.
+
+Source: All-Questions-Second-Course.pdf (page 5 of 24)
 */
 
 import java.util.Scanner;

@@ -1,13 +1,14 @@
 package L3;
 
 /*
-Source: All-Questions-Second-Course.pdf
 Write java program to create
 avstudent(st[],d[][]) to find the sum and
 av for the following arryas of students
 Ali 10, 10,20
 Moh 20,100,50
 Hassan 100,1 00,100
+
+Source: All-Questions-Second-Course.pdf (page 2 of 24)
 */
 
 public class MethodPassThreeDegreesFindAvg {

@@ -1,11 +1,12 @@
 package L3;
 
 /*
-Source: All-Questions-Second-Course.pdf
 Q3: Write java program to create array x[]={20,30,5,2,1} have integer value
 l- Pass x[] array to method Searchkey(x, key) to find key=5; then print index of it.
 2- pass array to method Sortar() to array in Ascending order.
 3- search key =5 before sort array and after sorting.
+
+Source: All-Questions-Second-Course.pdf (page 3 of 24)
 */
 
 import java.util.Arrays;

@@ -4,7 +4,7 @@ package L3.HW;
 2- Write java program to create checkTraficlight(Light) , read the variable for
 keyboard inside method.
 
-Source: 4- H.W Methods using Java 2025.pdf
+Source: 4- H.W Methods using Java 2025.pdf (page 1 of 1)
 */
 
 import java.util.Scanner;
