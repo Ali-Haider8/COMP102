@@ -12,8 +12,8 @@ This course covers the following core topics:
 - **1D Arrays:** Storing and controlling single-dimensional data.
 - **2D Arrays:** Handling two-dimensional data structures and their applications.
 - **Java Methods:** Creating and invoking methods, return types, and parameter passing.
-- **Mathematical Functions** like abs & ceil & floor.
 - **Java Strings:** String manipulation and built-in methods.
+- **Mathematical Functions** like abs & ceil & floor.
 
 ## 🏫 Academic Source
 **University of Kufa** | **Faculty of Computer Science and Mathematics** | **Department of Computer Science**
@@ -21,7 +21,7 @@ This course covers the following core topics:
 
 ## 👨‍🏫 Instructors
 - **Dr. Ali Abdulkarem Habib Alrammahi**
-- **Dr. Abbas M. Ali Al-muqarm**
+- Assistant Lecturer Zahraa Azhar
 
 > *📅 **Learning Start Date — March 2026***
 
