@@ -1,53 +1,35 @@
 package Other;
 
-import java.util.List;
-import java.util.Arrays;
-
 public class ForEachLoop {
-    void main() {
-        // example 1
-        /*List<Integer> numbers = Arrays.asList(10, 20, 30, 40, 50);
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
 
-        for (Integer x : numbers) {
-            System.out.print(x);
-            System.out.print(",");
-        }*/
+        for (int element : arr) {
+            System.out.print(element + " ");
+        }
 
-        // example 2
-        /*List<String> names = Arrays.asList("James", "Larry", "Tom", "Lacy");
-        for (String name : names) {
-            System.out.print(name);
-            System.out.print(",");
-        }*/
+        System.out.println();
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
 
-        // example 3
-        /*Student[] students = {
-                new Student(1, "Julie"),
-                new Student(3, "Adam"),
-                new Student(2, "Robert")
-        };
+        System.out.println();
+        int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        for (int[] row : matrix) {
+            for (int element : row) {
+                System.out.print(element + " ");
+            }
+            System.out.println();
+        }
 
-        for (Student student : students) {
-            System.out.print(student);
-            System.out.print(",");
-        }*/
+        System.out.println();
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[i].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
 
 
     }
-
-    // example 3
-    /*class Student {
-        int rollNo;
-        String name;
-
-        Student(int rollNo, String name) {
-            this.rollNo = rollNo;
-            this.name = name;
-        }
-
-        @Override
-        public String toString() {
-            return "[ " + this.rollNo + ", " + this.name + " ]";
-        }
-    }*/
 }
