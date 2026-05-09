@@ -2,7 +2,7 @@ package L1.Examples;
 
 // How to declare, initialize and access array?
 public class CreateArray {
-    static void main() {
+    public static void main(String[] args) {
 
 //        int[] values;
 //        int values2[];
