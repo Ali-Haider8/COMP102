@@ -4,7 +4,6 @@ package L3.HW;
 4- Create method for sum() and div1() to solve this equation
 y = ( ∑_{i=0}^{10} f(x) ) / ( ∑_{i=0}^{10} f(x) + c )
 
-
 Source: 4- H.W Methods using Java 2025.pdf (page 1 of 1)
 */
 
