@@ -1,8 +1,8 @@
 package Other;
 
-class JumpStatements {
+public class JumpStatements {
 
-    static void main() {
+    public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         System.out.print("Array: ");
         for (int n : arr) System.out.print(n + " ");
