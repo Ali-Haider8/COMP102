@@ -23,19 +23,20 @@ public class Invoice {
 
     public static void main(String[] args) {
         String[] items = {"sugar", "Tea", "rice"};
-        int[] prices = {200, 400, 600};
+        int[][] prices = {{1, 200}, {2, 400}, {3, 600}};
 
-        int maxPrice = prices[0];
+        int maxPrice = prices[0][1];
         int indexMaxPrice = 0;
-        int minPrice = prices[2];
+        int minPrice = prices[0][1];
         int indexMinPrice = 0;
+
         for (int i = 0; i < items.length; i++) {
-            if (prices[i] > maxPrice) {
-                maxPrice = prices[i];
+            if (prices[i][1] > maxPrice) {
+                maxPrice = prices[i][1];
                 indexMaxPrice = i;
             }
-            if (prices[i] < minPrice) {
-                minPrice = prices[i];
+            if (prices[i][1] < minPrice) {
+                minPrice = prices[i][1];
                 indexMinPrice = i;
             }
         }
@@ -45,10 +46,10 @@ public class Invoice {
         FindKey(items, prices, "Tea");
     }
 
-    static void FindKey(String[] items, int[] prices, String key) {
+    static void FindKey(String[] items, int[][] prices, String key) {
         for (int i = 0; i < items.length; i++) {
-            if (items[i].equals(key)) {
-                System.out.println("Price for " + key + " is: " + prices[i]);
+            if (items[i].equalsIgnoreCase(key)) {
+                System.out.println("Price for " + key + " is: " + prices[i][1]);
             }
         }
     }
