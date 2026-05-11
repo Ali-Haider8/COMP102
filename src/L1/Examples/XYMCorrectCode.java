@@ -13,7 +13,6 @@ x = y = new int [20];
 for (m=1; m<=10; ++m)
 System.out.Println (x);
 
-
 Source: All-Questions-Second-Course.pdf (page 10 of 24)
 */
 
