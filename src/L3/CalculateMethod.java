@@ -23,6 +23,7 @@ public class CalculateMethod {
     public static void main(String[] args) {
         // call method
         addNumbers();
+// call method 
         multiplyNumbers();
     }
 }
