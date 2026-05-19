@@ -1,6 +1,11 @@
 package L1.HW;
 
-// 6. Create array (10, 20, 4, 45, 99) then , Find Second Largest Element Without Sorting:
+/*
+6. Create array (10, 20, 4, 45, 99) then , Find Second Largest Element Without Sorting:
+
+Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
+*/
+
 public class SecondLargestElementWithoutSorting {
 
     public static void main(String[] args) {
@@ -23,7 +28,6 @@ public class SecondLargestElementWithoutSorting {
         }
 
         System.out.println("Second Largest Number is: " + secondLargestNumber);
-
 
     }
 }

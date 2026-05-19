@@ -1,10 +1,16 @@
 package L1.HW;
 
 import java.util.Scanner;
-//  5. Create array from Key board then Sum of All Elements:
+
+/*
+5. Create array from Key board then Sum of All Elements:
+
+Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
+*/
+
 public class SumAllArrayElements {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array size: ");
