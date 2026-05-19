@@ -1,4 +1,4 @@
-package L1.Examples;
+package L1.Others;
 
 import java.util.Arrays;
 

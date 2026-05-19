@@ -1,4 +1,4 @@
-package L1.Examples;
+package L1.Others;
 
 /*
 Q4:- Correct the following of code :

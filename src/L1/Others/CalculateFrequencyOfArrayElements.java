@@ -1,4 +1,4 @@
-package L1.HW;
+package L1.Others;
 
 public class CalculateFrequencyOfArrayElements {
 
