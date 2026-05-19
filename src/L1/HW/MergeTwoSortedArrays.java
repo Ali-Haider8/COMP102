@@ -10,11 +10,6 @@ Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
 
 public class MergeTwoSortedArrays {
 
-    static void enterArrayElements(int[] arr, Scanner sc) {
-        for (int i = 0; i < arr.length; i++) arr[i] = sc.nextInt();
-
-    }
-
     static int[] sortedArray(int[] arr) {
         int temp;
         for (int i = 0; i < arr.length; i++) {
@@ -40,22 +35,18 @@ public class MergeTwoSortedArrays {
     public static void main(String[] args) {
 
         int[] arr1, arr2;
-
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size for first array: ");
         int arr1Size = sc.nextInt();
-
         System.out.print("Enter size for second array: ");
         int arr2Size = sc.nextInt();
-
         arr1 = new int[arr1Size];
         arr2 = new int[arr2Size];
 
         System.out.print("Enter elements for first array: ");
-        enterArrayElements(arr1, sc);
-
+        for (int i = 0; i < arr1.length; i++) arr1[i] = sc.nextInt();
         System.out.print("Enter elements for second array: ");
-        enterArrayElements(arr2, sc);
+        for (int i = 0; i < arr2.length; i++) arr2[i] = sc.nextInt();
         sc.close();
 
         arr1 = sortedArray(arr1);
