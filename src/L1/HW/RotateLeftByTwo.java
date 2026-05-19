@@ -1,8 +1,15 @@
 package L1.HW;
-// 8. Create array then rotate Array to Left by Given Positions =2
+
+/*
+8. Create array then rotate Array to Left by Given Positions =2
+
+Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
+*/
+
 public class RotateLeftByTwo {
 
-    static void main(String[] args) {
+
+    public static void main(String[] args) {
 
         int[] numbers = {10, 20, 30, 40, 50};
 
