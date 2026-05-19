@@ -2,13 +2,44 @@ package L1.HW;
 
 import java.util.Scanner;
 
-// 3. Create any two integer array from Keyboard , then Merge Two Sorted
-//Arrays
+/*
+3. Create any two integer array from Keyboard , then Merge Two Sorted Arrays
+
+Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
+*/
+
 public class MergeTwoSortedArrays {
+
+    static void enterArrayElements(int[] arr, Scanner sc) {
+        for (int i = 0; i < arr.length; i++) arr[i] = sc.nextInt();
+
+    }
+
+    static int[] sortedArray(int[] arr) {
+        int temp;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[j] < arr[i]) {
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    static int[] margedArray(int[] arr1, int[] arr2) {
+        int[] arr3 = new int[arr1.length + arr2.length];
+        int index = 0;
+        for (int x : arr1) arr3[index++] = x;
+        for (int x : arr2) arr3[index++] = x;
+        return arr3;
+    }
 
     public static void main(String[] args) {
 
-        int[] arr1, arr2, arr3;
+        int[] arr1, arr2;
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter size for first array: ");
@@ -21,98 +52,18 @@ public class MergeTwoSortedArrays {
         arr2 = new int[arr2Size];
 
         System.out.print("Enter elements for first array: ");
-        for (int i = 0; i < arr1.length; i++) {
-            arr1[i] = sc.nextInt();
-        }
-
+        enterArrayElements(arr1, sc);
 
         System.out.print("Enter elements for second array: ");
-        for (int i = 0; i < arr2.length; i++) {
-            arr2[i] = sc.nextInt();
-        }
+        enterArrayElements(arr2, sc);
         sc.close();
 
-        System.out.print("Array 1 elements: ");
-        for (int x : arr1) {
-            System.out.print(x + " ");
-        }
+        arr1 = sortedArray(arr1);
+        arr2 = sortedArray(arr2);
 
-        System.out.println();
-        System.out.print("Array 2 elements: ");
-        for (int x : arr2) {
-            System.out.print(x + " ");
-        }
-
-        // sort first array
-        int swap = 0;
-        for (int i = 0; i < arr1.length; i++) {
-            for (int j = i + 1; j < arr1.length; j++) {
-                if (arr1[i] > arr1[j]) {
-                    swap = arr1[j];
-                    arr1[j] = arr1[i];
-                    arr1[i] = swap;
-                }
-            }
-        }
-
-        System.out.println();
-        System.out.print("Array 1 elements sorted: ");
-        for (int x : arr1) {
-            System.out.print(x + " ");
-        }
-
-        // sort second array
-
-        for (int i = 0; i < arr2.length; i++) {
-            for (int j = i + 1; j < arr2.length; j++) {
-                if (arr2[i] > arr2[j]) {
-                    swap = arr2[j];
-                    arr2[j] = arr2[i];
-                    arr2[i] = swap;
-                }
-            }
-        }
-
-        System.out.println();
-        System.out.print("Array 2 elements sorted: ");
-
-        for (int x : arr2) {
-            System.out.print(x + " ");
-        }
-
-        arr3 = new int[arr1Size + arr2Size];
-
-        for (int i = 0; i < arr1.length; i++) {
-            arr3[i] = arr1[i];
-        }
-        for (int i = 0; i < arr2.length; i++) {
-            arr3[arr1.length + i] = arr2[i];
-        }
-
-        System.out.println();
-        System.out.print("Arrays Merged: ");
-
-        for (int x : arr3) {
-            System.out.print(x + " ");
-        }
-
-        // sort arr3
-        for (int i = 0; i < arr3.length; i++) {
-            for (int j = i + 1; j < arr3.length; j++) {
-                if (arr3[i] > arr3[j]) {
-                    swap = arr3[j];
-                    arr3[j] = arr3[i];
-                    arr3[i] = swap;
-                }
-            }
-        }
-
-        System.out.println();
-        System.out.print("Array 3 elements sorted: ");
-
-        for (int x : arr3) {
-            System.out.print(x + " ");
-        }
+        int[] margedArray = margedArray(arr1, arr2);
+        margedArray = sortedArray(margedArray);
+        for (int element : margedArray) System.out.print(element + " ");
 
     }
 }
