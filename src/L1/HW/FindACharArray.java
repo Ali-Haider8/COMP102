@@ -2,8 +2,6 @@ package L1.HW;
 
 import java.util.Scanner;
 
-
-
 /*
 2- Rewrite second program and input char instead of string from keyboard
 
