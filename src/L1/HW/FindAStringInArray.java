@@ -5,6 +5,8 @@ import java.util.Scanner;
 /*
 Q1: Write Java program to create array have 5 string items {Ali, Hassan ,
 Mohaamed, Jaafar}
+Then search for word Ali , if his name in array , print found if not print
+not found.
 Source: 3- 1D Array Programs.pdf (page 2 of 2)
 */
 
