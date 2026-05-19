@@ -1,39 +1,28 @@
 package L1.HW;
 
-import java.util.Scanner;
+/*
+Q> Write a Java program to print the prime numbers in an array
 
-// Q> Write a Java program to print the prime numbers in an array.
+Source: 2- One-dimensional Array Examples.pdf (page 4 of 4)
+*/
 
 public class PrintPrimeNumbersArray {
 
-    static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the size of array: ");
-        int size = sc.nextInt();
-
-        int[] arr = new int[size];
-
-        System.out.print("Enter an element for the array: ");
-        for (int i = 0; i < size; i++) {
-            arr[i] = sc.nextInt();
-        }
-
-
-        System.out.println();
-        for (int x : arr) {
-            boolean isPrime = x > 1;
-            for (int i = 2; i * i <= x; i++) {
-                if (x % i == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
-            System.out.println(x + " is a prime number? " + isPrime);
-        }
-
+    public static void main(String[] args) {
+        int[] arr = {3, 5, 6, 4, 7};
+        for (int number : arr)
+            if (isPrime(number)) System.out.println(number + " is prime.");
 
     }
 
+    static boolean isPrime(int number) {
+        if (number <= 1) return false;
+        for (int i = 2; i <= number / 2; i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
 
 }

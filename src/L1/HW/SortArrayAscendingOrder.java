@@ -3,6 +3,7 @@ package L1.HW;
 import java.util.Scanner;
 // Q2: Write java codes to create array with any five integer items { 5,4,2,1}
 //then sorting array in ascending order.
+
 public class SortArrayAscendingOrder {
 
     static void main(String[] args) {

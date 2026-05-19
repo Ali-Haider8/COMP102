@@ -1,38 +1,25 @@
 package L1.HW;
 
-import java.util.Scanner;
-//  Q> Write a Java program to count the number of occurrences of an element in an
+/*
+Q> Write a Java program to count the number of occurrences of an element in an
 //  array.
+
+Source: 2- One-dimensional Array Examples.pdf (page 4 of 4)
+*/
 
 public class ElementOccurrencesInArray {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        int[] numbers = new int[5];
-
-        System.out.print("Enter 5 numbers: ");
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = sc.nextInt();
-        }
-
-        System.out.print("The Array Elements: ");
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.print(numbers[i] + " ");
-        }
-
-        System.out.println();
-        System.out.print("Find occurrences for element: ");
-        int element = sc.nextInt();
-        sc.close();
+        int[] arr = {3, 5, 6, 3, 7};
+        int element = 3;
 
         int occurrences = 0;
-        for (int number : numbers) {
-            if (number == element) {
+        for (int number : arr)
+            if (number == element)
                 occurrences++;
-            }
-        }
 
-        System.out.println("The Occurrences for " + element + " is: " + occurrences);
+        System.out.println("Occurrences for " + element + " is: " + occurrences);
+
     }
 }
