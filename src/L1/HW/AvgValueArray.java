@@ -1,10 +1,16 @@
 package L1.HW;
 
 import java.util.Scanner;
-//10. create array from keyboard then Calculate Average Value
+
+/*
+10. create array from keyboard then Calculate Average Value
+
+Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
+*/
+
 public class AvgValueArray {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter array size: ");
@@ -24,7 +30,6 @@ public class AvgValueArray {
         double avg = (double) sum / size;
 
         System.out.println("Average value of array is: " + avg);
-
 
 
     }
