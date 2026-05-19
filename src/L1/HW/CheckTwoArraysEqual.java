@@ -1,13 +1,25 @@
 package L1.HW;
 
 import java.util.Scanner;
-//7. Create any two arrays from keyboard then Check if Two Arrays Are Equal:
+
+/*
+7. Create any two arrays from keyboard then Check if Two Arrays Are Equal:
+
+Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
+*/
+
 public class CheckTwoArraysEqual {
 
-    static void main(String[] args) {
+    static boolean isTwoArraysEqual(int[] arr1, int[] arr2) {
+        for (int i = 0; i < arr1.length; i++)
+            if (arr1[i] != arr2[i]) return false;
+        return true;
+    }
+
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter first array size: ");
+        System.out.print("Enter array size: ");
         int arraysSize = sc.nextInt();
 
         int[] firstArray = new int[arraysSize];
@@ -24,29 +36,12 @@ public class CheckTwoArraysEqual {
         }
         sc.close();
 
-        System.out.println();
-        System.out.print("First array elements: ");
-        for (int x : firstArray) {
-            System.out.print(x + " ");
+
+        if (isTwoArraysEqual(firstArray, secondArray)) {
+            System.out.println("Two arrays are equal");
+        } else {
+            System.out.println("Two arrays are not equal");
         }
-
-        System.out.println();
-        System.out.print("Second array elements: ");
-        for (int x : secondArray) {
-            System.out.print(x + " ");
-        }
-
-        boolean equal = true;
-
-        for (int i = 0; i < arraysSize; i++) {
-            if (firstArray[i] != secondArray[i]) {
-                equal = false;
-                break;
-            }
-        }
-
-        System.out.println();
-        System.out.println("Arrays are equal is: " + equal);
 
     }
 }
