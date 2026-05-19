@@ -1,13 +1,18 @@
 package L1.HW;
 
 import java.util.Scanner;
-// 9. Create array from the keyboard then print the array from second position after
-//that Find Missing number in Consecutive Integers:
+
+/*
+9. Create array from the keyboard then print the array from second position after
+that Find Missing number in Consecutive Integers:
+
+Source: 4- 1D Array H.W 2026.pdf (page 1 of 2)
+*/
 public class FindMissingNumberArray {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");
         int size = sc.nextInt();
 
@@ -48,9 +53,9 @@ public class FindMissingNumberArray {
 
         int missing = expectedSum - actualSum;
         System.out.println();
-        System.out.print("Missing Number = " + missing);*/
+        System.out.print("Missing Number = " + missing);
 
-        Scanner sc = new Scanner(System.in);
+      /*  Scanner sc = new Scanner(System.in);
         System.out.print("Enter size: ");
         int size = sc.nextInt();
 
@@ -59,7 +64,7 @@ public class FindMissingNumberArray {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-
+*/
         /*// arr = {5, 6 , 8}
         int x = 0;
         for (int i = arr[0]; i <= arr[arr.length - 1]; i++) {
@@ -80,14 +85,14 @@ public class FindMissingNumberArray {
             }
         }*/
 
-        int x = arr[0];
-        for (int i = 0; i <= arr.length-1 ; i++) {
-            if (x == arr [i]) {
+        /*int x = arr[0];
+        for (int i = 0; i <= arr.length - 1; i++) {
+            if (x == arr[i]) {
                 x = x + 1;
             } else {
                 System.out.println("The missing number: " + x);
             }
-        }
+        }*/
 
     }
 }
