@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q3: Write java program to create method MerregArray(int A1[], int A2[]) and

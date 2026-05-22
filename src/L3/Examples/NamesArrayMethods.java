@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q2: Write java program to create array of 10 Names then passed this array to

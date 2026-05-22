@@ -9,8 +9,9 @@ Source: 4- H.W Methods using Java 2025.pdf (page 1 of 1)
 */
 
 public class YoungOrOldMethod {
+
     static void GetPersonInfo(String name, int age) {
-        System.out.print("Ali is ");
+        System.out.print(name + " is ");
         checkAge(age);
     }
 

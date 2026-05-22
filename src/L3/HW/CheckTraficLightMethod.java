@@ -11,21 +11,35 @@ import java.util.Scanner;
 
 public class CheckTraficLightMethod {
 
-    static void checkTraficLight(String color) {
-        String action = "";
-        if (color.equals("red")) action = "Stop";
-        else if (color.equals("yellow")) action = "Get Ready";
-        else if (color.equals("green")) action = "Go";
-        else System.out.println("Invalid Input");
-        System.out.println("Action: " + action);
+    static void checkTraficLight() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the color of the traffic light (red - yellow - green)");
+        System.out.print("Color: ");
+        String light = sc.nextLine();
+        String action;
+        switch (light) {
+            case "red":
+                action = "Stop";
+                break;
+            case "yellow":
+                action = "Get Ready";
+                break;
+            case "green":
+                action = "Go";
+                break;
+            default:
+                action = null;
+
+        }
+        if (action != null)
+            System.out.println("Action: " + action);
+        else
+            System.out.println("Invalid input");
+
+
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the color of the traffic light");
-        System.out.println("red - " + "yellow - " + "green");
-        System.out.print("Current color is: ");
-        String color = sc.nextLine();
-        checkTraficLight(color);
+        checkTraficLight();
     }
 }

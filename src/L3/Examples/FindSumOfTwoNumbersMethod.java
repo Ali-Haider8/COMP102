@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Source: 3- Java Methods.pdf (page 1 of 3)

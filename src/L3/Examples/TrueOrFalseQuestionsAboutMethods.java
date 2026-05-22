@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q1:- Write ( True ) or ( False & Correct it )

@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q3: Write java program to create avstudent(st[].d[][]) to find the av for each student for the

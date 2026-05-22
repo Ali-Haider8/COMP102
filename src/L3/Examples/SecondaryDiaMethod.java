@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q5: Correct the following code

@@ -9,7 +9,7 @@ Source: 2- Java Methods.pdf (page 3 of 3)
 public class SortArrayMethod {
 
     static void sortArr(int[] arr) {
-        int temp = 0;
+        int temp;
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr.length; j++) {
                 if (arr[i] < arr[j]) {

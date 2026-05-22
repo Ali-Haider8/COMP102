@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q2: Create a class called Invoice, this class have

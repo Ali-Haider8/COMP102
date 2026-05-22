@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q3: Write java program to create array x[]={20,30,5,2,1} have integer value

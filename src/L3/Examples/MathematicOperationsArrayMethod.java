@@ -1,4 +1,4 @@
-package L3;
+package L3.Examples;
 
 /*
 Q4: Write java program to create array Op[]={+, -, *, /, ^} then
