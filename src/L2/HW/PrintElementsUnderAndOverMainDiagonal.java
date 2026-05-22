@@ -9,13 +9,6 @@ Source: 2- Two-dimensional Array Examples.pdf (page 3 of 3)
 public class PrintElementsUnderAndOverMainDiagonal {
 
     public static void main(String[] args) {
-        int[][] arr = {
-                {10, 11, 12, 13},
-                {14, 15, 16, 17},
-                {18, 19, 20, 21},
-                {22, 23, 24, 25}
-        };
-
         /*System.out.println("Array: ");
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
@@ -58,6 +51,12 @@ public class PrintElementsUnderAndOverMainDiagonal {
         }
         */
 
+        int[][] arr = {
+                {10, 11, 12, 13},
+                {14, 15, 16, 17},
+                {18, 19, 20, 21},
+                {22, 23, 24, 25}
+        };
 
         System.out.println("above the main diagonal");
         for (int i = 0; i < arr.length; i++)
