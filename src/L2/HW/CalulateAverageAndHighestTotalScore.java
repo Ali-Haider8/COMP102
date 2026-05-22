@@ -5,37 +5,28 @@ Q4: create 2D array have 3*4 , row represent student and
 columns represent Grads , do the following.
   Calculate each student's average
   Find the student with the highest total score
-*/
 
-import java.util.Scanner;
+Source: 3- H.W. 2D array using java 2025.pdf (page 1 of 1)
+*/
 
 public class CalulateAverageAndHighestTotalScore {
 
     public static void main(String[] args) {
-        int rows = 3;
-        int columns = 4;
-        Scanner sc = new Scanner(System.in);
-        int[][] arr = new int[rows][columns];
-        for (int i = 0; i < rows; i++) {
-            System.out.print("Enter 4 Grades for Student " + (i + 1) + ": ");
-            for (int j = 0; j < columns; j++) {
-                arr[i][j] = sc.nextInt();
-            }
-        }
-        sc.close();
+        int[][] arr = {
+                {50, 84, 69, 87},
+                {86, 46, 79, 93},
+                {68, 48, 79, 49}
+        };
 
-        System.out.println();
-        System.out.println("Students Average");
-        System.out.println("---------------");
         double higestScoreStudentID = 0;
         int studentID = 0;
-        double studentAverage;
-        for (int i = 0; i < rows; i++) {
+        int studentAverage;
+        for (int i = 0; i < arr.length; i++) {
             double sum = 0;
-            for (int j = 0; j < columns; j++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 sum += arr[i][j];
             }
-            studentAverage = sum / columns;
+            studentAverage = (int) sum / arr.length;
             System.out.println("Student " + (i + 1) + " Average is: " + studentAverage);
             if (studentAverage > higestScoreStudentID) {
                 higestScoreStudentID = studentAverage;
@@ -45,9 +36,7 @@ public class CalulateAverageAndHighestTotalScore {
         }
 
         System.out.println();
-        System.out.println("Student with Highest Total Score");
-        System.out.println("---------------");
-        System.out.println("The Student number: " + studentID);
+        System.out.println("Student with Highest Total Score: " + studentID);
 
     }
 }
