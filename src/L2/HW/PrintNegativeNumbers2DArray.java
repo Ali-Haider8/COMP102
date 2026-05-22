@@ -1,26 +1,18 @@
 package L2.HW;
 /*
 Q2> Write a Java program to print negative numbers in an 2D array.
+
+Source: 2- Two-dimensional Array Examples.pdf (page 3 of 3)
 */
 
-import java.util.Arrays;
+public class PrintNegativeNumbers2DArray {
 
-class PrintNegativeNumbers2DArray {
+    public static void main(String[] args) {
+        int[][] arr = {{1, -2, 3}, {-4, 5, 6}};
 
-    static void main() {
-        int[][] arr = {
-                {1, -2, 4, 5},
-                {6, -7, 8, -9}
-        };
+        for (int i = 0; i < arr.length; i++)
+            for (int j = 0; j < arr[i].length; j++)
+                if (arr[i][j] < 0) System.out.print(arr[i][j] + " ");
 
-        System.out.println("Array: " + Arrays.deepToString(arr));
-
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                if (arr[i][j] < 0) {
-                    System.out.print(arr[i][j] + " ");
-                }
-            }
-        }
     }
 }
