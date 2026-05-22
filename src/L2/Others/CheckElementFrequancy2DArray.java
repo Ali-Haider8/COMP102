@@ -1,16 +1,14 @@
-package L2.HW;
+package L2.Others;
 
 /*
-Q1> Write a Java program to count the number of occurrences of an element in an
-2D array.
 
-Source: 2- Two-dimensional Array Examples.pdf (page 3 of 3)
+Source:  (page 1 of 1)
 */
 
-public class ElementOccurrences2DArray {
+public class CheckElementFrequancy2DArray {
 
     public static void main(String[] args) {
-        int[][] matrix = {{1, 2, 3}, {3, 2, 5}, {3, 6, 4}};
+        int[][] matrix = {{1, 2, 2}, {3, 3, 3}, {4, 4, 4}, {4}};
         // 1. go accross all array elemenets
         for (int i = 0; i < matrix.length; i++)
             for (int j = 0; j < matrix[i].length; j++) {
