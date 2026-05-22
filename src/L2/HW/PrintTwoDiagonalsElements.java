@@ -23,8 +23,10 @@ public class PrintTwoDiagonalsElements {
             for (int j = 0; j < arr[i].length; j++)
                 if (i == j || i + j == arr.length - 1)
                     System.out.print(arr[i][j]);
-                else if (i == 1) System.out.print("  ");
-                else System.out.print("\t");
+                else if (i == 1)
+                    System.out.print("  ");
+                else
+                    System.out.print("\t");
             System.out.println();
         }
     }
