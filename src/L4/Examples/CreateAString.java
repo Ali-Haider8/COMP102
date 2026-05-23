@@ -1,4 +1,4 @@
-package L4;
+package L4.Examples;
 
 /*
 Source: 1- JavaString2025.pdf (page 7 of 19)
