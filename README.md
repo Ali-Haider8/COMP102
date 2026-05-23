@@ -13,7 +13,7 @@ Interact with this repository using GitInspect:
 
 ## 🛠️ Technologies Used
 
-<p align="center">
+<p align="left">
 <img src="https://img.shields.io/badge/IntelliJ%20IDEA%202026.1.2-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" />
 <img src="https://img.shields.io/badge/Microsoft%20Copilot-742AFF?style=for-the-badge&logo=microsoft&logoColor=white" />
