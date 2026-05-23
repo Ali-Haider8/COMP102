@@ -1,6 +1,12 @@
 # 🚀 Advanced Programming Language (Java) - COMP102
 
 > *A repository for **Advanced Programming Language course** materials and practical exercises.*
+---
+
+## 🗨️ Chat with Repo
+Interact with this repository using GitInspect:
+
+[![Chat with Repo](https://img.shields.io/badge/Chat%20with%20Repo-GitInspect-blue?style=for-the-badge)](https://gitinspect.com/Ali-Haider8/COMP102)
 
 ## 📂 Repository Content
 - 💻 Advanced programming examples
@@ -16,14 +22,16 @@ This course covers the following core topics:
 - **Mathematical Functions** like abs & ceil & floor.
 
 ## 🏫 Academic Source
-**University of Kufa** | **Faculty of Computer Science and Mathematics** | **Department of Computer Science**
+**University of Kufa** | **Faculty of Computer Science and Mathematics** | **Department of Computer Science**  
 **First Year – Semester 2** | **Batch: 2025–2026**
 
 ## 👨‍🏫 Instructors
 - **Dr. Ali Abdulkarem Habib Alrammahi**
 - Assistant Lecturer Zahraa Azhar
 
-> *📅 **Learning Start Date — March 2026***
+> *📅 Learning Start Date — March 2026*
+
+---
 
 ## 🌐 Recommended References
 
