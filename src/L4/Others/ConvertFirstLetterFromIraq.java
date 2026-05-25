@@ -1,7 +1,10 @@
 package L4.Others;
 
 /*
-Source:  (page 1 of 1)
+ex2: read string s1=“i am from iraq” then
+convert first letter from Iraq to capital later
+
+Source: 1- JavaString2025.pdf (page 19 of 19)
 */
 
 public class ConvertFirstLetterFromIraq {
