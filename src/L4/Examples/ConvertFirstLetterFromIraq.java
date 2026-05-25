@@ -1,4 +1,4 @@
-package L4.Others;
+package L4.Examples;
 
 /*
 ex2: read string s1=“i am from iraq” then

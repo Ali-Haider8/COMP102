@@ -1,4 +1,4 @@
-package L4.Others;
+package L4.Examples;
 
 /*
 ex1: use suitable method of string in this code
