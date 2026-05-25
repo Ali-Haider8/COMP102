@@ -1,7 +1,10 @@
 package L4.HW;
 
 /*
-Source:  (page 1 of 1)
+Q3: Wrtie java program to read string (I am from Iraq)
+from keybord and check country word only(Iraq: print Iraq, India : print
+Indaia and if Qatar print from Qatar)
+Source: 3- JavaString HW.pdf (page 1 of 1)
 */
 
 import java.util.Scanner;
