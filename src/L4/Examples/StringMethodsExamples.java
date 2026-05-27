@@ -13,7 +13,5 @@ public class StringMethodsExamples {
     }
 
     public static void main(String[] args) {
-
-
     }
 }
