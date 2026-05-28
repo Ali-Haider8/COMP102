@@ -1,7 +1,7 @@
 package L4.Examples;
 
 /*
-Source: 1- JavaString2025.pdf (page 11 of 19)
+Source: 1- JavaString2025.pdf (page 12 of 19)
 */
 
 public class EqualsMethod {
