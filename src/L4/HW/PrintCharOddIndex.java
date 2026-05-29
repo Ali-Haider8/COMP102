@@ -23,6 +23,5 @@ public class PrintCharOddIndex {
         String text = sc.nextLine();
         printChatAtOddIndex(text);
         sc.close();
-
     }
 }
