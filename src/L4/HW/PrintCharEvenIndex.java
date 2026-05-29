@@ -21,7 +21,7 @@ public class PrintCharEvenIndex {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String text = sc.nextLine();
+        sc.close();
         printCharEvenIndex(text);
-
     }
 }

@@ -15,6 +15,7 @@ public class ChangeHelloToWelcome {
         Scanner sc = new Scanner(System.in);
         System.out.println("Write: \" Hello I love Iraq\"");
         String text = sc.nextLine();
+        sc.close();
         text = text.trim();
         if (text.contains("Hello"))
             text = text.replace("Hello", "Welcome");
