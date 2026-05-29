@@ -10,6 +10,7 @@ Q2: Write java program to create array of 10 Names then passed this array to
 3- Use (Switch) to make options for methods
 
 Source: All-Questions-Second-Course.pdf (page 5 of 24)
+Source: 6- homeworks16-04.pdf (page 1 of 1)
 */
 
 import java.util.Scanner;
