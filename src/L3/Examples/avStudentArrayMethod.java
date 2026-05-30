@@ -25,7 +25,10 @@ public class avStudentArrayMethod {
             for (int j = 0; j < grades[i].length; j++) {
                 sum += grades[i][j];
             }
-            System.out.println("Name: " + names[i] + " - Sum: " + sum + " - Average: " + (sum / names[i].length()));
+            System.out.print("Name: " + names[i]);
+            System.out.print(" - Sum: " + sum);
+            System.out.print(" - Average: " + (sum / names[i].length()));
+            System.out.println();
         }
     }
 }

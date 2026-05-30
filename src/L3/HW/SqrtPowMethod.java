@@ -11,8 +11,8 @@ Source: 5- H.W - Method.pdf (page 1 of 1)
 */
 
 public class SqrtPowMethod {
-    static int a = 4;
-    static int b = 5;
+    static int a;
+    static int b;
 
     static void findSquareRoot() {
         System.out.println("Square root for " + a + " is: " + Math.sqrt(a));
@@ -23,10 +23,14 @@ public class SqrtPowMethod {
     }
 
     public static void main(String[] args) {
-        System.out.println("a: " + a + ", b: " + b);
-        System.out.print("Enter 1 for square root, 2 for power: ");
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a: ");
+        a = sc.nextInt();
+        System.out.print("Enter b: ");
+        b = sc.nextInt();
+        System.out.print("Enter 1 for square root, 2 for power: ");
         int choice = sc.nextInt();
+        sc.close();
 
         if (choice == 1) {
             findSquareRoot();
