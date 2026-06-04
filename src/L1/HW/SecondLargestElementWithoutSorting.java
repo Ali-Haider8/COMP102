@@ -22,7 +22,7 @@ public class SecondLargestElementWithoutSorting {
                 largestNumber = arr[i];
 
             } else if (arr[i] > secondLargestNumber && arr[i] != largestNumber) {
-                secondLargestNumber = i;
+                secondLargestNumber = arr[i];
             }
 
         }
