@@ -37,10 +37,9 @@ Interact with this repository using GitInspect:
 - **Mathematical Functions:** abs, ceil, floor, and more  
 
 ---
-
 ## 🏫 Academic Source
-**University of Kufa** | **Faculty of Computer Science and Mathematics** | **Department of Computer Science**  
-**First Year – Semester 2** | **Batch: 2025–2026**
+**University of Kufa — Computer Science**  
+**First Year | Semester 2 | Batch 2025–2026**
 
 ---
 
