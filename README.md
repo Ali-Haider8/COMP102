@@ -65,4 +65,7 @@ Interact with this repository using GitInspect:
 
 ### ▶️ YouTube Playlists
 - [Java Programming Course — Playlist 1](https://youtube.com/playlist?list=PLwDpZMXfRps0R45qRu4eYNwm-10ju9gj_&si=desrK4l5HP1EVrGt)  
-- [Advanced Java / برمجة متقدمة — Playlist 2](https://www.youtube.com/playlist?list=PL83yz61_Sp1qOQ99VTKLCN9LA5VDIUyHm)
+- [Advanced Java / برمجة متقدمة — Playlist 2](https://www.youtube.com/playlist?list=PL83yz61_Sp1qOQ99VTKLCN9LA5VDIUyHm)  
+- [Advanced Java – جامعة الكوفة — Playlist 3](https://www.youtube.com/playlist?list=PLQSSNLUJ5WwE6PMJ8PtFHOZEPO_np6r-U)
+
+
