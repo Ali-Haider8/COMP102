@@ -1,7 +1,7 @@
 package L2.Others;
 
 /*
-Q4: With a 2-D array of ten integer numbers, write a Java program to find the following: choose three only (12 marks)
+Q4: With a 2-D array of 16 integer numbers, write a Java program to find the following: choose three only (12 marks)
 a) The average of even numbers.
 b) Print prime numbers only.
 c) Print negative numbers only in the Secondary diagonal.
