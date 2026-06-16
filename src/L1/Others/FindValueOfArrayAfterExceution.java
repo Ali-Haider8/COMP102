@@ -20,7 +20,7 @@ public class FindValueOfArrayAfterExceution {
 
         int[] A = {0, 2, 4, 1, 3};
         for (int i = 0; i < A.length; i++) {
-            A[i] = A[(A[i] + 3) % A.length];
+            A[i] = A[(A[i] + 3) %A.length];
         }
         System.out.println("A[1]= " + A[1]); // 1
 
