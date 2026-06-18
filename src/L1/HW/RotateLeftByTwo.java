@@ -15,12 +15,16 @@ public class RotateLeftByTwo {
 
         int first = arr[0];
         for (int r = 0; r < 2; r++) {
-            for (int i = 0; i < arr.length - 1; i++) arr[i] = arr[i + 1];
+            for (int i = 0; i < arr.length - 1; i++) {
+                arr[i] = arr[i + 1];
+            }
             arr[arr.length - 1] = first;
         }
 
         System.out.print("Array after left rotation: ");
-        for (int number : arr) System.out.print(number + " ");
+        for (int number : arr) {
+            System.out.print(number + " ");
+        }
 
     }
 }
