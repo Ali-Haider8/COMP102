@@ -1,17 +1,17 @@
-# 🚀 Advanced Programming Language (Java) - COMP102
+### 🚀 Advanced Programming Language (Java) - COMP102
 
 > *A repository for **Advanced Programming Language course** materials and practical exercises.*
 
 ---
 
-## 🗨️ Chat with Repo
+### 🗨️ Chat with Repo
 Interact with this repository using GitInspect:
 
 [![Chat with Repo](https://img.shields.io/badge/Chat%20with%20Repo-GitInspect-blue?style=for-the-badge)](https://gitinspect.com/Ali-Haider8/COMP102)
 
 ---
 
-## 🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 <p align="left">
 <img src="https://img.shields.io/badge/IntelliJ%20IDEA%202026.1.2-000000?style=for-the-badge&logo=intellijidea&logoColor=white" />
@@ -22,14 +22,14 @@ Interact with this repository using GitInspect:
 
 ---
 
-## 📂 Repository Content
+### 📂 Repository Content
 - 💻 Advanced programming examples  
 - 🧪 Practical lab exercises  
 - 🧩 Course-related code files  
 
 ---
 
-## 📖 Topics Covered
+### 📖 Topics Covered
 - **1D Arrays:** Storing and controlling single-dimensional data  
 - **2D Arrays:** Handling two-dimensional data structures and their applications  
 - **Java Methods:** Creating and invoking methods, return types, and parameter passing  
@@ -37,13 +37,13 @@ Interact with this repository using GitInspect:
 - **Mathematical Functions:** abs, ceil, floor, and more  
 
 ---
-## 🏫 Academic Source
+### 🏫 Academic Source
 **University of Kufa — Computer Science**  
 **First Year | Semester 2 | Batch 2025–2026**
 
 ---
 
-## 👨‍🏫 Instructors
+### 👨‍🏫 Instructors
 - **Dr. Ali Abdulkarem Habib Alrammahi**  
 - **Assistant Lecturer Zahraa Azhar**
 
@@ -51,7 +51,19 @@ Interact with this repository using GitInspect:
 
 ---
 
-## 🌐 Recommended References
+### 🔨 Relations with Other Modules — COMP102
+
+---
+**Prerequisite Module**
+- Programming Fundamentals
+
+**Co‑requisite Modules**
+- Object-Oriented Programming
+- Data Structure
+- Website Design
+
+---
+### 🌐 Recommended References
 
 ### 📘 Books
 - **Java How to Program (9th Edition)** — Paul & Harvey Deitel  
