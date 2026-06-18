@@ -81,4 +81,6 @@ Interact with this repository using GitInspect:
 - [Youtube Playlist - Asst. Lect. Maytham Alhasooni](https://youtube.com/playlist?list=PLEy1PGRXuTObOzWhZMhNyT2eSjfj8EDHj&si=s9AxKr62oRvAlvzA)  
 - [Advanced Java – جامعة الكوفة — Playlist 3](https://www.youtube.com/playlist?list=PLQSSNLUJ5WwE6PMJ8PtFHOZEPO_np6r-U)
 
+### 💬 Telegram Sources
+- [Batool](https://t.me/SecondSemesterUokCS/63)
 
