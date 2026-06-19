@@ -25,7 +25,7 @@ public class Test {
 }
 A) 5   B) 5.0   C) Compilation error   D) 5
 
-Source: final-exams-csklawat.pdf (page 1 of 11)
+Source: final-exams-csklawat.pdf (page 1 of 18)
 */
     static int add(int a, int b) {
 
@@ -47,7 +47,7 @@ Source: final-exams-csklawat.pdf (page 1 of 11)
 
     a- 9      b- 11      c- 10
 
-Source: final-exams-csklawat.pdf (page 8 of 11)
+Source: final-exams-csklawat.pdf (page 8 of 18)
 */
         int count = 0;
         do {

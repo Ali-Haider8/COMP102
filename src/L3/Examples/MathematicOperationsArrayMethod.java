@@ -4,7 +4,7 @@ package L3.Examples;
 Q4: Write java program to create array Op[]={+, -, *, /, ^} then
 apply all these mathematic operations on variables (A, B).
 
-Source: final-exams-csklawat.pdf (page 8 of 11)
+Source: final-exams-csklawat.pdf (page 8 of 18)
 */
 
 public class MathematicOperationsArrayMethod {

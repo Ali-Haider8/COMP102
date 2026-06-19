@@ -11,7 +11,7 @@ for(int i = 0; i < A.length; i++){
 a- 0    b- 1    c- 3
 
 
-Source: final-exams-csklawat.pdf (page 7 of 11)
+Source: final-exams-csklawat.pdf (page 7 of 18)
 */
 
 public class FindValueOfArrayAfterExceution {
