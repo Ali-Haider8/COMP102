@@ -1,13 +1,13 @@
 package L3.Examples;
 
 /*
-Q4: Write java program to create array Op[]={+, -, *, /, ^} then
-apply all these mathematic operations on variables (A, B).
+Q4: Write a Java program to create array Op[]={+, -, *, /, ^} then
+apply all these mathematical operations on variables (A, B).
 
 Source: final-exams-csklawat.pdf (page 8 of 18)
 */
 
-public class MathematicOperationsArrayMethod {
+public class MathematicalOperationsArrayMethod {
 
     public static void main(String[] args) {
         char[] Op = {'+', '-', '*', '/', '^'};
